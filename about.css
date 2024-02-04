@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Nunito:ital,wght@0,400;0,700;1,300;1,400;1,700&display=swap');
+
+:root {
+  --primary: #ff523b;
+  --alternate: #600c14;
+
+
+ --light:aliceblue;
+  --dark: black;
+  --txthead: 'Fjalla One', sans-serif;
+  --txtbody: 'Nunito', sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+
+main {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  /* padding: 20px; */
+}
+
+.about-us{
+  width: 100%;
+  height: 1100px;
+}
+
+.about-us .top-section{
+  display: flex;
+  width: 100%;
+  height: 459px;
+  flex-direction: column;
+  background-size: cover;
+  background-position: center;
+}
+.about-us .top-section img{
+  
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 459px;
+}
+.about-us .top-section .top{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: var(--light);
+  height: 250px;
+  width: 400px;
+  background-color: var(--primary);
+  margin-top: -350px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  text-align: left;
+}
+.about-us .top-section .top .text{
+ font-size: 20px;
+ padding-left: 10px;
+ font-family: var(--txtbody);
+}
+.about-us .top-section .top .title{
+  font-size: 50px;
+  padding-left: 10px;
+  font-family: var(--txthead);
+  font-weight: 200;
+ }
+ .about-us .middle-section{
+  height: 900px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+ }
+ .about-us .middle-section .left{
+  height: 1240px;
+  width: 70%;
+  padding: 50px;
+  text-align: justify;
+ }
+
+
+ .about-us .middle-section .right{
+  display: flex;
+  flex-direction: column;
+  height: 1220px;
+  width: 30%;
+  padding: 100px 30px;
+ }
+ .about-us .middle-section .right .down{
+  height: 700px;
+  background-color: var(--primary);
+  margin-top: 20px;
+ }
+ .about-us .middle-section .right .up{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+  margin-top: -795px;
+  background: transparent;
+ }
+ .about-us .middle-section .right .up .right-img{
+  height: 240px;
+  width: 350px;
+  background-color: #600c14;
+  margin: 30px;
+ }
+ .about-us .middle-section .right .up .right-img img{
+  height: 240px;
+  width: 350px;
+ }
+ .about-us .lower-section .lower{
+  padding: 50px;
+  text-align: justify;
+ }
+
+ 
+
+ .about-us .middle-section .card-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  /* background-color:#FFD580; */
+  margin-top: 30px;
+  /* box-shadow: 0 4px 10px var(--dark); */
+
+ }
+ .about-us .middle-section .card{
+  height: 433.36px;
+  width: 350px;
+  /* background-color: var(--light); */
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border-radius: 20px;
+  box-shadow: 0 4px 10px var( --dark);
+ }
+
+
+
+
+ .about-us .middle-section .card-image-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: -755px;
+
+
+
+ }
+
+
+ .about-us .middle-section .card-image img{
+  width: 350px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  box-shadow: 0 4px 10px var( --dark);
+  border-radius: 20px;
+ }
+ .about-us .middle-section .left .card-container .card .state {
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.about-us .middle-section .card-container .card .owner-name, .des {
+
+  font-size: 20px;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 30px;
+  margin-right: 30px;
+}

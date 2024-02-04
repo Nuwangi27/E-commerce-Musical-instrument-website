@@ -1,0 +1,389 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial;
+}
+
+.sub_container{
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
+
+.navbar{
+    display: flex !important;
+    align-items: center !important;
+    padding: 20px !important;
+}
+
+nav{
+    flex: 1 !important;
+    text-align: right !important;
+}
+
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+}
+
+nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.header{
+    background: radial-gradient(#fff,#ffd6d6);
+}
+
+.header .row{
+    margin-top: 70px;
+}
+
+a{
+   text-decoration: none !important;
+   color: #555 !important; 
+}
+
+.ui-w-80 {
+    width : 80px !important;
+    height: auto;
+}
+
+.btn-default {
+    border-color: rgba(24, 28, 33, 0.1);
+    background  : rgba(0, 0, 0, 0);
+    color       : #4E5155;
+}
+
+label.btn {
+    margin-bottom: 0;
+}
+
+.btn-outline-primary {
+    border-color: #ff523b;
+    background  : transparent;
+    color       : #ff523b;
+}
+
+.btn {
+    cursor: pointer;
+}
+
+.text-light {
+    color: #babbbc !important;
+}
+
+.btn-facebook {
+    border-color: rgba(0, 0, 0, 0);
+    background  : #3B5998;
+    color       : #fff;
+}
+
+.btn-instagram {
+    border-color: rgba(0, 0, 0, 0);
+    background  : #000;
+    color       : #fff;
+}
+
+.card {
+    background-clip: padding-box;
+    box-shadow     : 0 1px 4px rgba(24, 28, 33, 0.012);
+}
+
+.row-bordered {
+    overflow: hidden;
+}
+
+.account-settings-fileinput {
+    position  : absolute;
+    visibility: hidden;
+    width     : 1px;
+    height    : 1px;
+    opacity   : 0;
+}
+
+.account-settings-links .list-group-item.active {
+    font-weight: bold !important;
+}
+
+html:not(.dark-style) .account-settings-links .list-group-item.active {
+    background: transparent !important;
+}
+
+.account-settings-multiselect~.select2-container {
+    width: 100% !important;
+}
+
+.light-style .account-settings-links .list-group-item {
+    padding     : 0.85rem 1.5rem;
+    border-color: rgba(24, 28, 33, 0.03) !important;
+}
+
+.light-style .account-settings-links .list-group-item.active {
+    color: #4e5155 !important;
+}
+
+.material-style .account-settings-links .list-group-item {
+    padding     : 0.85rem 1.5rem;
+    border-color: rgba(24, 28, 33, 0.03) !important;
+}
+
+.material-style .account-settings-links .list-group-item.active {
+    color: #4e5155 !important;
+}
+
+.dark-style .account-settings-links .list-group-item {
+    padding     : 0.85rem 1.5rem;
+    border-color: rgba(255, 255, 255, 0.03) !important;
+}
+
+.dark-style .account-settings-links .list-group-item.active {
+    color: #fff !important;
+}
+
+.light-style .account-settings-links .list-group-item.active {
+    color: #4E5155 !important;
+}
+
+.light-style .account-settings-links .list-group-item {
+    padding     : 0.85rem 1.5rem;
+    border-color: rgba(24, 28, 33, 0.03) !important;
+}
+
+/* ------ footer ------ */
+
+.footer{
+    background: black;
+    color: #8a8a8a;
+    font-size: 14px;
+    padding: 60px 0 20px;
+
+}
+.footer p{
+    color: #8a8a8a;
+}
+
+.footer h3{
+    color: white;
+    margin-bottom: 20px;
+}
+
+.footer-col-1, .footer-col-2, .footer-col-3, .footer-col-4{
+    min-width: 250px;
+    margin-bottom: 20px;
+}
+
+.footer-col-1{
+    flex-basis: 30%;
+}
+
+.footer-col-1{
+    flex: 1;
+    text-align: center;
+}
+
+.footer-col-1 img{
+    width: 180px;
+    margin-bottom: 20px;
+}
+
+.footer-col-3, .footer-col-4{
+    flex-basis: 12%;
+    text-align: center;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.app-logo{
+    margin-top: 20px;
+}
+
+.app-logo img{
+    width: 200px;
+}
+
+.footer hr{
+    border: none;
+    background: #b5b5b5;
+    height: 1px;
+    margin: 20px 0;
+}
+
+.copyright{
+    text-align: center;
+}
+
+.menu-icon{
+    width: 28px;
+    margin-left: 20px;
+    display: none;
+}
+
+/* ----- Profile ----- */
+
+.profile{
+    display: flex;
+    align-items: center;
+    column-gap: 8px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.profile img{
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+    border: 2px solid #ff523b5e;
+}
+
+
+.checkout_btn{
+    display: inline-block;
+    background: #ff523b;
+    color: #fff;
+    padding: 5px 20px;
+    margin: 30px 0px;
+    border-radius: 8px;
+    transition: 0.5s;
+    cursor: pointer;
+    border: none !important;
+} 
+
+.noti_cart_number{
+    background: red;
+    color: white;
+    top: -5px;
+    margin-left: -6px;
+    margin-top: -10px;
+    padding: 2px;
+    border-radius: 50%;
+    
+}
+
+th{
+    text-align: left !important;
+    padding: 5px !important;
+    color: #fff !important;
+    background: #ff523b !important;
+    font-weight: normal !important;
+}
+
+.order_container{
+    margin: 10px auto;
+    max-width: 900px;
+}
+
+.left_container{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 0.25rem;
+    margin-top: 30px;
+    height: auto;
+}
+
+.left{
+    width: 300px;
+    height: 100%;
+    border: 1px solid rgba(0,0,0,.125);
+}
+
+.right{
+    width: 100%;
+    height: 100%;
+}
+
+.cell{
+    padding: 20px 24px;
+    border: 1px solid rgba(24, 28, 33, 0.03);
+    text-align: left;
+    color: #4E5155;
+    font-size: 18px;
+}
+
+.cell:hover{
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.1);
+}
+
+a{
+    text-decoration: none;
+}
+
+.user_container{
+    margin: 30px 150px;
+}
+
+table{
+    width: 100%;
+}
+
+td{
+    padding: 10px 5px;
+}
+
+.order{
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.topic{
+    text-align: center;
+}
+
+.btn{
+    display: inline-block !important;
+    background: #ff523b !important;
+    color: #fff !important;
+    padding: 8px 30px !important;
+    margin: 30px 0px !important;
+    border-radius: 30px;
+    transition: 0.5s !important;
+    cursor: pointer !important;
+}
+
+.btn:hover{
+    background: #563434 !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.checkout_btn:hover{
+    background:#563434;
+}
+
+.checkout_btn:focus{
+    outline: none;
+}
+
+.form-control{
+    border: 1px solid #ff523b !important;
+}
+
+.form-control:hover{
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.1);
+}
+
+.form-control:focus{
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.1) !important;
+}
+.text-light-new{
+    color: #babbbc !important;
+}
